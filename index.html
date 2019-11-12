@@ -9,10 +9,40 @@
 </head>
 <body>
     <div class="conatiner">
-        <haeder class="header">haeder part</haeder>
+        <haeder class="header">
+            <img src="./img/logo.png" alt="logo" class="logo">
+            <form action="#" class="search">
+                <input type="text" class="search_input" placeholder="Search Hotel">
+                <button class="search_button">
+                    <svg class="search_icon">
+                        <use xlink:href="img/sprite.svg#icon-magnifying-glass"></use>
+                    </svg>
+                </button>
+            </form>
+<nav class="user_nav">
+    <div class="user_nav-icon_box">
+        <svg class='user_nav-icon'>
+            <use xlink:href="img/sprite.svg#icon-bookmark"></use>
+        </svg>
+        <span class="user_nav-notification">5</span>
+    </div>
+    <div class="user_nav-icon_box">
+        <svg class='user_nav-icon'>
+            <use xlink:href="img/sprite.svg#icon-chat"></use>
+        </svg>
+        <span class="user_nav-notification">7</span>
+    </div>
+
+    <div class="user_nav-user">
+        <img src="./img/user.jpg" alt="nav_user" class="user_nav-user-photo">
+        <span class="user_nav-user-name">Surendra</span>
+    </div>
+</nav>
+        </haeder>
         <div class="content">
             <nav class="sidebar">Navigation</nav>
             <main class="hotel-view">Hotel view</main>
+           
         </div>
     </div>
 </body>
